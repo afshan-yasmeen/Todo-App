@@ -10,7 +10,7 @@ class Diary(SQLModel, table=True):
 
 
 
-sqlite_url = f"postgresql://ToDoApp_owner:cP03BKAnNGrv@ep-silent-block-a5mktk6i.us-east-2.aws.neon.tech/ToDoApp?sslmode=require"
+sqlite_url = f""
 
 
 engine = create_engine(sqlite_url)
